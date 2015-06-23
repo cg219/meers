@@ -1,0 +1,23 @@
+{
+  "name": "meers",
+  "version": "1.0.0",
+  "description": "Mirror Tweets to another account",
+  "main": "app.js",
+  "dependencies": {
+    "request": "^2.58.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cg219/meers.git"
+  },
+  "author": "Clemente Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cg219/meers/issues"
+  },
+  "homepage": "https://github.com/cg219/meers"
+}
