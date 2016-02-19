@@ -61,6 +61,7 @@ var TwitterStream = {
 		var server;
 
 		routerApp.get("/alive", function(req, res){
+			console.log("Keeping Alive");
 			res.status(200).end();
 		});
 
