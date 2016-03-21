@@ -55,6 +55,10 @@ var TwitterStream = {
 					tweet = "";
 				}
 			})
+			.on("error", function(error){
+				console.log("ERROR!");
+				console.log(error);
+			})
 	},
 	api : function(){
 		var self = this;
