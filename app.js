@@ -20,7 +20,8 @@ var TwitterStream = {
 			stream: {
 				track: process.env.TWITTER_HASHTAG,
 				stringify_friend_ids: true,
-				delimited: "length"
+				delimited: "length",
+				stall_warnings: true
 			},
 			post: {
 				status: ""
@@ -39,7 +40,7 @@ var TwitterStream = {
 		request({url:self.url.stream, oauth:self.oauth, qs:self.params.stream, json:true, encoding: "utf8"})
 			.on("data", function(chunk){
 				if(length){
-
+					console.log("Something going on with", length);
 				}
 				else{
 					var newlineIndex = chunk.search("\r\n");
