@@ -1,3 +1,5 @@
+//DEPRICATED
+
 var http 		= require("http"),
 	https 		= require("https"),
 	request 	= require("request"),

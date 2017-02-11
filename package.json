@@ -1,10 +1,9 @@
 {
   "name": "meers",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Mirror Tweets to another account",
-  "main": "app.js",
+  "main": "index.js",
   "dependencies": {
-    "dotenv": "^2.0.0",
     "express": "^4.13.4",
     "request": "^2.58.0"
   },
@@ -20,6 +19,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cg219/meers/issues"
+  },
+  "engines": {
+    "node": "6.x"
   },
   "homepage": "https://github.com/cg219/meers"
 }
